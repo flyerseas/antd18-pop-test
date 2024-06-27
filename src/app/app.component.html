@@ -1,0 +1,5 @@
+<button nz-button nzType="primary" (click)="popModal()">弹窗</button>
+
+<nz-modal nzTitle="测试" [nzVisible]="showPop" (nzOnCancel)="popModal()">
+    <div *nzModalContent>测试内容</div>
+</nz-modal>
